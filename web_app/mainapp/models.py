@@ -135,7 +135,7 @@ class MainTable(models.Model):
         help_text="Признак отличия даты рождения",
     )
     date_of_birth_spu = models.DateField(
-
+        verbose_name="Date of Birth"
     )
 
     def __str__(self):
